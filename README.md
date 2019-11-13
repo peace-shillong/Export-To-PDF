@@ -11,6 +11,7 @@ https://medium.com/@ssaurel/learn-to-generate-pdf-documents-for-your-android-app
 If you are building from scratch and added apw library to your project do make the following changes: 
 
 1. in side gradle file of your project
+```
 buildscript {
     repositories {
         google()
@@ -26,6 +27,6 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
-
+```
 2. remove build tools automatically from apwlibrary gradle file
 
