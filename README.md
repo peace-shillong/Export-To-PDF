@@ -30,3 +30,7 @@ buildscript {
 ```
 2. remove build tools automatically from apwlibrary gradle file
 
+3. add 
+implementation project(path: ':apwlibrary')
+
+to your app gradle file
